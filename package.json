@@ -1,0 +1,27 @@
+{
+  "name": "epr-2424",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.jsx",
+  "scripts": {
+    "lint": "eslint . --color --ext js,jsx --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:woodenconsulting/epr-2424.git"
+  },
+  "author": "jwooden",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.15.0"
+  }
+}
